@@ -1,0 +1,19 @@
+
+  <script>
+    function esPrimo() {
+      let numero = 29;
+      if (numero <= 1) {
+        document.write(`${numero} no es primo`);
+        return;
+      }
+      for (let i = 2; i < numero; i++) {
+        if (numero % i === 0) {
+          document.write(`${numero} no es primo`);
+          return;
+        }
+      }
+      document.write(`${numero} es primo`);
+    }
+
+    esPrimo();
+  </script>

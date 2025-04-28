@@ -1,0 +1,17 @@
+
+  <script>
+    function contarVocales() {
+      let texto = "Hola, ¿cómo estás?"; // Texto para contar las vocales (puedes cambiarlo)
+      let contador = 0;
+      const vocales = ['a', 'e', 'i', 'o', 'u'];
+      for (let i = 0; i < texto.length; i++) {
+        if (vocales.includes(texto[i].toLowerCase())) {
+          contador++;
+        }
+      }
+      document.write(`El texto "${texto}" tiene ${contador} vocales`);
+    }
+
+    contarVocales();
+  </script>
+
