@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordenar Eventos por Fecha</title>
+</head>
+<body>
+  <h2>Ordenar Eventos por Fecha</h2>
+  <script>
+    // crear un array de objetos con eventos y sus fechas
+    let eventos = [
+      { nombre: "Concierto de Rock", fecha: new Date(2025, 5, 10) },
+      { nombre: "Feria de Ciencias", fecha: new Date(2025, 2, 25) },
+      { nombre: "Maratón Anual", fecha: new Date(2025, 6, 12) },
+      { nombre: "Exposición de Arte", fecha: new Date(2025, 4, 5) }
+    ];
+
+    function ordenarEventos() {
+      // ordenar los eventos por fecha ascendente
+      eventos.sort((a, b) => a.fecha - b.fecha);
+      
+      // mostrar los eventos ordenados
+      eventos.forEach(evento => {
+        document.write(`${evento.nombre} - ${evento.fecha.toLocaleDateString()}<br>`);
+      });
+    }
+
+    ordenarEventos();
+  </script>
+</body>
+</html>

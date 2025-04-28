@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumar Precios de Productos</title>
+</head>
+<body>
+  <h2>Sumar Precios de Productos</h2>
+  <script>
+    // array de objetos con productos y sus precios
+    let productos = [
+      { nombre: "Laptop", precio: 1500 },
+      { nombre: "Smartphone", precio: 800 },
+      { nombre: "Auriculares", precio: 100 },
+      { nombre: "Teclado", precio: 50 }
+    ];
+
+    function calcularTotal() {
+      // usar reduce para sumar los precios de todos los productos
+      let total = productos.reduce((acumulado, producto) => acumulado + producto.precio, 0);
+      
+      // total de precios
+      document.write(`El precio total de los productos es: $${total}`);
+    }
+
+    calcularTotal();
+  </script>
+</body>
+</html>

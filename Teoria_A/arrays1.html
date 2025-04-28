@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrar Estudiantes Aprobados</title>
+</head>
+<body>
+  <h2>Filtrar Estudiantes Aprobados</h2>
+  <script>
+    // crear un array de objetos con estudiantes y sus calificaciones
+    let estudiantes = [
+      { nombre: "Juan", calificacion: 14 },
+      { nombre: "Ana", calificacion: 9 },
+      { nombre: "Luis", calificacion: 15 },
+      { nombre: "Maria", calificacion: 12 },
+      { nombre: "Carlos", calificacion: 16 }
+    ];
+
+    function filtrarAprobados() {
+      // filtrar los estudiantes con calificación mayor o igual a 13
+      let aprobados = estudiantes.filter(estudiante => estudiante.calificacion >= 13);
+      
+      // mostrar los estudiantes aprobados
+      aprobados.forEach(estudiante => {
+        document.write(`${estudiante.nombre} ha aprobado con una calificación de ${estudiante.calificacion}<br>`);
+      });
+    }
+
+    filtrarAprobados();
+  </script>
+</body>
+</html>
