@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento de Teclado</title>
+</head>
+<body>
+  <h2>Evento de Teclado: Mostrar Hora Actual</h2>
+  <p>Presiona cualquier tecla para ver la hora actual.</p>
+
+  <script>
+    document.addEventListener("keydown", mostrarHora);
+
+    function mostrarHora() {
+      let fecha = new Date();
+      let hora = fecha.toLocaleTimeString();
+      document.write(`La hora actual es: ${hora}`);
+    }
+  </script>
+</body>
+</html>
