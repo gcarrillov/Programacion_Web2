@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dom ocultar y mostrar</title>
+</head>
+<body>
+  <h2>Mostrar y ocultar un Elemento</h2>
+  <p id="texto" style="display:none;">texto que es mostrado o bien ocultado al presionar el boton</p>
+  <button onclick="mostrarOcultar()">Mostrar/Ocultar</button>
+
+  <script>
+    function mostrarOcultar() {
+      let elemento = document.getElementById("texto");
+      if (elemento.style.display === "none") {
+        elemento.style.display = "block"; // Muestra el elemento
+      } else {
+        elemento.style.display = "none"; // Oculta el elemento
+      }
+    }
+  </script>
+</body>
+</html>
