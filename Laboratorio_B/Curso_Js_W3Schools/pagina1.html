@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Control de Texto</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      padding: 20px;
+    }
+    #miTexto {
+      font-size: 20px;
+      color: rgb(53, 75, 53);
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>problema "pagina1"</h2>
+  <p id="miTexto">Este es un texto que se puede modificar con estos botones: </p>
+
+  <!-- botones para tamaño -->
+  <button onclick="cambiarTamano('grande')">Aumentar tamaño</button>
+  <button onclick="cambiarTamano('pequeno')">Reducir tamaño</button>
+
+  <!-- botones para color -->
+  <button onclick="cambiarColor('red')">Rojo</button>
+  <button onclick="cambiarColor('blue')">Azul</button>
+  <button onclick="cambiarColor('green')">Verde</button>
+
+  <script>
+    function cambiarTamano(opcion) {
+      const texto = document.getElementById("miTexto");
+      if (opcion === "grande") {
+        texto.style.fontSize = "30px";
+      } else {
+        texto.style.fontSize = "16px";
+      }
+    }
+
+    function cambiarColor(color) {
+      document.getElementById("miTexto").style.color = color;
+    }
+  </script>
+
+</body>
+</html>
