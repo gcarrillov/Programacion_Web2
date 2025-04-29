@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Usuarios desde JSON</title>
+</head>
+<body>
+  <h2>Lista de Usuarios</h2>
+  <script>
+    // recibimos esta cadena JSON de un servidor especificado
+    let jsonUsuarios = `
+      [
+        { "nombre": "Carlos", "edad": 35, "correo": "carlos@gmail.com" },
+        { "nombre": "Ana", "edad": 20, "correo": "gcarrillov@unsa.edu.pe" },
+        { "nombre": "Luis", "edad": 22, "correo": "luis@hotmail.com" }
+      ]
+    `;
+
+    // convertivos la cadena a un array
+    let usuarios = JSON.parse(jsonUsuarios);
+
+    // mostrar datos
+    usuarios.forEach(usuario => {
+      document.write(`Nombre: ${usuario.nombre} <br>`);
+      document.write(`Edad: ${usuario.edad} <br>`);
+      document.write(`Correo: ${usuario.correo} <br><br>`);
+    });
+  </script>
+</body>
+</html>

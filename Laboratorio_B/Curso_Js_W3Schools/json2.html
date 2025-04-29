@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Promedio de Calificaciones</title>
+</head>
+<body>
+  <h2>Calcular Promedio de Calificaciones</h2>
+  <script>
+    // JSON con estudiantes y sus calificaciones
+    let jsonCalificaciones = `
+      {
+        "curso": "Matemáticas",
+        "estudiantes": [
+          { "nombre": "Andrea", "nota": 16 },
+          { "nombre": "Marco", "nota": 12 },
+          { "nombre": "Valeria", "nota": 18 },
+          { "nombre": "Diego", "nota": 15 }
+        ]
+      }
+    `;
+
+    // parseamos el JSON
+    let datos = JSON.parse(jsonCalificaciones);
+
+    // extraemos el array de estudiantes
+    let estudiantes = datos.estudiantes;
+
+    // calculamos el promedio
+    let suma = estudiantes.reduce((total, estudiante) => total + estudiante.nota, 0);
+    let promedio = suma / estudiantes.length;
+
+    // mostrar resultados
+    document.write(`Curso: ${datos.curso} <br>`);
+    estudiantes.forEach(e => {
+      document.write(`${e.nombre} tiene nota ${e.nota}<br>`);
+    });
+    document.write(`<br>Promedio del curso: ${promedio.toFixed(2)}`);
+  </script>
+</body>
+</html>
