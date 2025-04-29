@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Invertir texto</title>
+</head>
+<body>
+
+<h2>EJERCICIO PROPUESTO 2 - Invertir texto</h2>
+<input type="text" id="entrada" placeholder="Escribe algo">
+<button onclick="invertirTexto()">Invertir</button>
+
+<div id="resultado" style="margin-top:10px; font-weight:bold;"></div>
+
+<script>
+function invertirTexto() {
+  let texto = document.getElementById("entrada").value;
+  let invertido = texto.split("").reverse().join("");
+  document.getElementById("resultado").innerText = "Texto invertido: " + invertido;
+}
+</script>
+
+</body>
+</html>

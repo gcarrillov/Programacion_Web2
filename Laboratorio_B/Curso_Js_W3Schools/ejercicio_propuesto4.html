@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Extraer código de Meet</title>
+</head>
+<body>
+
+<h2>EJERCICIO PROPUESTO 4 - Extraer código de Meet</h2>
+<input type="text" id="url" placeholder="Pega el URL de Meet">
+<button onclick="extraerCodigo()">Extraer</button>
+
+<p id="codigo"></p>
+
+<script>
+function extraerCodigo() {
+  let url = document.getElementById("url").value;
+  let partes = url.split("/"); // separar por slashes
+  let ultima = partes[partes.length - 1] || partes[partes.length - 2];
+  let codigoSinGuiones = ultima.replace(/-/g, "");
+  document.getElementById("codigo").innerText = "Código sin guiones: " + codigoSinGuiones;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Días hasta el día de Arequipa</title>
+</head>
+<body>
+
+<h2>EJERCICIO PROPUESTO 3 - ¿Cuántos días faltan para el día de Arequipa?</h2>
+<p id="dias"></p>
+
+<script>
+const hoy = new Date();
+const anio = hoy.getFullYear();
+let proximo151 = new Date(anio, 7, 15); // Ejemplo con el mes 7 = agosto
+
+// si ya paso, usar el próximo año
+if (hoy > proximo151) {
+  proximo151 = new Date(anio + 1, 7, 15);
+}
+
+const diferencia = proximo151 - hoy;
+const diasFaltantes = Math.ceil(diferencia / (1000 * 60 * 60 * 24));
+
+document.getElementById("dias").innerText = "Faltan " + diasFaltantes + " días para el 15 de agosto.";
+</script>
+
+</body>
+</html>

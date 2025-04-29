@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dia de la semana</title>
+</head>
+<body>
+
+<h2>EJERCICIO PROPUESTO 1 - Dia de la semana</h2>
+<p id="resultado"></p>
+
+<script>
+function obtenerDiaTexto(numero) {
+  const dias = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+  return dias[numero];
+}
+
+let hoy = new Date().getDay(); // 0 (domingo) a 6 (sábado)
+document.getElementById("resultado").innerText = "Hoy es: " + obtenerDiaTexto(hoy);
+</script>
+
+</body>
+</html>

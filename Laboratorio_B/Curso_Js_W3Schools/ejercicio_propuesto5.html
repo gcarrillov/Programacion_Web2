@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla Dinámica</title>
+</head>
+<body>
+
+<h2>EJERCICIO PROPUESTO 5 - Tabla Dinámica</h2>
+<form id="formCantidad" onsubmit="crearTabla(); return false;">
+  <label>¿Cuántos valores tendrá la tabla?</label>
+  <input type="number" id="cantidad" min="1" required>
+  <button type="submit">Crear tabla</button>
+</form>
+
+<div id="tabla"></div>
+
+<script>
+function crearTabla() {
+  let cantidad = parseInt(document.getElementById("cantidad").value);
+  let contenedor = document.getElementById("tabla");
+  contenedor.innerHTML = "";
+
+  let tabla = "<table border='1'><tr>";
+  let total = 0;
+
+  for (let i = 0; i < cantidad; i++) {
+    let valor = Math.floor(Math.random() * 100); // numero aleatorio 0-99
+    tabla += "<td class='valor'>" + valor + "</td>";
+    total += valor;
+  }
+
+  tabla += "</tr></table>";
+  tabla += "<p><strong>Suma total:</strong> " + total + "</p>";
+
+  contenedor.innerHTML = tabla;
+}
+</script>
+
+</body>
+</html>
