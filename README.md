@@ -27,6 +27,9 @@
     <h1 style="font-weight:bold; font-size: 2em;">Laboratorios del curso de Programación Web 2</h1>
 </div>
 
+## Link de drive de informes/entregables del curso
+* Se implemento un drive en el que se guardo todos los informes y/o entregables distintos del curso, se puede acceder mendiante el siguiente link: [drive](https://drive.google.com/drive/folders/1EgjylB4c75GF00KGxQ38FLWZ9dV0yFul?usp=sharing)
+
 ## Índice
 
 1. Laboratorio_B
@@ -38,6 +41,7 @@
 2. TeoriaA
     1.1. tareaAjax
     1.2. posibles_complementos
+
 
 
 ### Laboratorio_B
