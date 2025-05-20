@@ -52,7 +52,7 @@ Se completo todo el laboratorio 5 [Carpeta](/Laboratorio_B/Lab05_Ajedrez-Python)
 
 #### Lab04
 * Se completo todo el curso de AJAX de W3School, todo este proceso junto a los ejercicios desarrollados se puede visualizar en el informe propio [informe_lab04](https://drive.google.com/drive/folders/1RnM7J-Y7gypV5o-mCVGJHgLvsNjw__i3?usp=drive_link)
-* Para este laboratorio se hizo una actividad grupal, que se puede apreciar en este repositorio [Laboratorio_04(parte_grupal)](https://github.com/sandra-aliaga/Lab-Pweb-2/Lab_4_Ajax)
+* Para este laboratorio se hizo una actividad grupal, que se puede apreciar en este repositorio [Laboratorio_04(parte_grupal)](https://github.com/sandra-aliaga/Lab-Pweb-2.git)
 * Se realizo todas las demás actividades propuestas del laboratorio 4 [Carpeta](/Laboratorio_B/Lab4_TareaAjax)
 
 #### Lab03
@@ -61,7 +61,7 @@ Se completo todo el laboratorio 5 [Carpeta](/Laboratorio_B/Lab05_Ajedrez-Python)
 
 ### Lab02
 * Este laboratorio se baso en uso del github con varios colaboradores
-* Las actividades junto con el problema propuesto se encuentra en otro repositorio, se puede apreciar en [Laboratorio_02](https://github.com/sandra-aliaga/Lab-Pweb-2/Lab_02_Ramas)
+* Las actividades junto con el problema propuesto se encuentra en otro repositorio, se puede apreciar en [Laboratorio_02](https://github.com/sandra-aliaga/Lab-Pweb-2.git)
 
 ### TeoriaA
 
