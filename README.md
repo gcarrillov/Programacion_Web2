@@ -1,4 +1,4 @@
-2<div align="center">
+<div align="center">
 <table>
     <thead>
         <tr>
@@ -33,28 +33,45 @@
 ## Índice
 
 1. Laboratorio_B
-    1.1. Curso_Js_W3Schools
-    1.2. Lab05_Ajedrez-Python
-    1.3. Lab4_TareaAjax
-    1.4. posibles_complementos
+    * Lab05_Ajedrez-Python
+    * Lab04
+    * Lab03
+    * Lab02
+    * posibles_complementos
 
 2. TeoriaA
-    1.1. tareaAjax
-    1.2. posibles_complementos
-
-
+   * tareaAjax
+   * Aplicacion Google App Script
+   * Ejercicios Codingbat Python
+   * posibles_complementos
 
 ### Laboratorio_B
 
-#### Curso_Js_W3Schools
-* Se desarrolló una página web personal simple para demostrar la funcionalidad de HTML y CSS.
-* Se puede visualizar el resultado en: [index.html](/CSS/index.html)
+#### Lab05_Ajedrez-Python
+Se completo todo el laboratorio 5 [Carpeta](/Laboratorio_B/Lab05_Ajedrez-Python)
 
-### MariaDB
-* Se desarrolló una página web que permite realizar búsquedas de autores y películas en una base de datos de MariaDB.
-* Para ejecutar la página web, se debe tener instalado un servidor web, ubicar los archivos estáticos en la carpeta htdocs y los scripts Perl en la carpeta cgi-bin.
-* Los archivos se encuentran en la carpeta [MARIADB](/MARIADB).
+#### Lab04
+* Se completo todo el curso de AJAX de W3School, todo este proceso junto a los ejercicios desarrollados se puede visualizar en el informe propio [informe_lab04](https://drive.google.com/drive/folders/1RnM7J-Y7gypV5o-mCVGJHgLvsNjw__i3?usp=drive_link)
+* Para este laboratorio se hizo una actividad grupal, que se puede apreciar en este repositorio [Laboratorio_04(parte_grupal)](https://github.com/sandra-aliaga/Lab-Pweb-2/Lab_4_Ajax)
+* Se realizo todas las demás actividades propuestas del laboratorio 4 [Carpeta](/Laboratorio_B/Lab4_TareaAjax)
 
-### JavaScript
-* Se redactó un informe detallando un resumen de JavaScript, demostrando su uso para el desarrollo de aplicaciones web.
-* Se puede visualizar el informe en: [INFORME](/JAVASCRIPT/JS.pdf)
+#### Lab03
+* Se desarrolló por completo el curso de JavaScript en W3Schools en el repositorio se subio muchos ejercicios de las distintas lecciones que se iban enseñando[Carpeta](/Laboratorio_B/Curso_Js_W3Schools)
+* Se elaboró un proyecto que se puede visualizar en [proyecto.html](/Laboratorio_B/Curso_Js_W3Schools/proyecto.html)
+
+### Lab02
+* Este laboratorio se baso en uso del github con varios colaboradores
+* Las actividades junto con el problema propuesto se encuentra en otro repositorio, se puede apreciar en [Laboratorio_02](https://github.com/sandra-aliaga/Lab-Pweb-2/Lab_02_Ramas)
+
+### TeoriaA
+
+#### Ejercicios Codingbat Python
+* Se solicito completar todos los ejercicios de la pagina condingbat
+* Se puede apreciar en el informe dedicado [codingbat_Python](https://drive.google.com/drive/folders/1yCjkLU4SaH7j6JkU1p4op9sWsUznRNnn?usp=drive_link)
+
+#### tareaAjax
+Se completo toda la tarea de Ajax [Carpeta](/TeoriaA/tareaAjax)
+
+#### Aplicacion Google App Script
+Una pequeña aplicacion solicitada que se puede apreciar en el informe dedicado a esta tarea [AplicacionGAS](https://drive.google.com/drive/folders/1yCjkLU4SaH7j6JkU1p4op9sWsUznRNnn?usp=drive_link)
+
