@@ -40,6 +40,7 @@
     * posibles_complementos
 
 2. TeoriaA
+   * PracticaSQLite
    * tareaAjax
    * Aplicacion Google App Script
    * Ejercicios Codingbat Python
@@ -64,14 +65,16 @@ Se completo todo el laboratorio 5 [Carpeta](/Laboratorio_B/Lab05_Ajedrez-Python)
 * Las actividades junto con el problema propuesto se encuentra en otro repositorio, se puede apreciar en [Laboratorio_02](https://github.com/sandra-aliaga/Lab-Pweb-2.git)
 
 ### TeoriaA
-
-#### Ejercicios Codingbat Python
-* Se solicito completar todos los ejercicios de la pagina condingbat
-* Se puede apreciar en el informe dedicado [codingbat_Python](https://drive.google.com/drive/folders/1yCjkLU4SaH7j6JkU1p4op9sWsUznRNnn?usp=drive_link)
+#### PractocaSQLite
+Con esta tarea se dio una introduccion a lo que es el uso de base de datos en la aplicacion web, se uso una base de datos dada por el docente, se puede visualizar en [PracticaSQLite](/TeoriaA/PracticaSQLite)
 
 #### tareaAjax
 Se completo toda la tarea de Ajax [Carpeta](/TeoriaA/tareaAjax)
 
 #### Aplicacion Google App Script
 Una pequeña aplicacion solicitada que se puede apreciar en el informe dedicado a esta tarea [AplicacionGAS](https://drive.google.com/drive/folders/1yCjkLU4SaH7j6JkU1p4op9sWsUznRNnn?usp=drive_link)
+
+#### Ejercicios Codingbat Python
+* Se solicito completar todos los ejercicios de la pagina condingbat
+* Se puede apreciar en el informe dedicado [codingbat_Python](https://drive.google.com/drive/folders/1yCjkLU4SaH7j6JkU1p4op9sWsUznRNnn?usp=drive_link)
 
