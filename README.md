@@ -49,7 +49,7 @@
 ### Laboratorio_B
 
 #### Lab06_Django
-Se realiza el laboratorio de Django, en el que se puede apreciar las funciones basicas para implementar una aplicacion, en este caso de una tienda; todo el proceso junto con los archivos se pueden visualizar en [Lab06](/Lab06_Django)
+Se realiza el laboratorio de Django, en el que se puede apreciar las funciones basicas para implementar una aplicacion, en este caso de una tienda; todo el proceso junto con los archivos se pueden visualizar en [Lab06](/Laboratorio_B/Lab06_Django)
 
 #### Lab05_Ajedrez-Python
 Se completo todo el laboratorio 5 [Lab05](/Laboratorio_B/Lab05_Ajedrez-Python)
