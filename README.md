@@ -33,6 +33,7 @@
 ## Índice
 
 1. Laboratorio_B
+    * Lab06_Django
     * Lab05_Ajedrez-Python
     * Lab04
     * Lab03
