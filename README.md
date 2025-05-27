@@ -24,7 +24,7 @@
 </div>
 <div align="center" style="margin-top: 10px;">
     <img src="/img/unsa.png" alt="UNSA" width="450px" height="150px">
-    <h1 style="font-weight:bold; font-size: 2em;">Laboratorios del curso de Programación Web 2</h1>
+    <h1 style="font-weight:bold; font-size: 2em;">Curso completo de Programación Web 2</h1>
 </div>
 
 ## Link de drive de informes/entregables del curso
@@ -68,7 +68,7 @@ Se completo todo el laboratorio 5 [Lab05](/Laboratorio_B/Lab05_Ajedrez-Python)
 * Las actividades junto con el problema propuesto se encuentra en otro repositorio, se puede apreciar en [Lab02](https://github.com/sandra-aliaga/Lab-Pweb-2.git)
 
 ### TeoriaA
-#### PractocaSQLite
+#### PracticaSQLite
 Con esta tarea se dio una introduccion a lo que es el uso de base de datos en la aplicacion web, se uso una base de datos dada por el docente, se puede visualizar en [PracticaSQLite](/TeoriaA/PracticaSQLite)
 
 #### tareaAjax
