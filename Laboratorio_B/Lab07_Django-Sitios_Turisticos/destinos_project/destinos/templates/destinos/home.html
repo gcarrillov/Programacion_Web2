@@ -1,0 +1,18 @@
+{% extends 'destinos/base.html' %}
+
+{% block content %}
+<h1>Destinos Turísticos</h1>
+<div class="destinos">
+    {% for destino in destinos %}
+        <div class="destino">
+            <h2>{{ destino.nombreCiudad }}</h2>
+            <img src="{{ destino.imagenCiudad.url }}" width="300">
+            <p>{{ destino.descripcionCiudad }}</p>
+            <p><strong>Precio:</strong> ${{ destino.precioTour }}</p>
+            {% if destino.ofertaTour %}
+                <p><strong>¡En oferta!</strong></p>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

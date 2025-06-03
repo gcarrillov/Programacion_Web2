@@ -1,0 +1,24 @@
+{% extends 'destinos/base.html' %}
+
+{% block content %}
+<h2>Lista de Destinos</h2>
+<table border="1">
+    <tr>
+        <th>Ciudad</th>
+        <th>Precio</th>
+        <th>Oferta</th>
+        <th>Acciones</th>
+    </tr>
+    {% for destino in destinos %}
+    <tr>
+        <td>{{ destino.nombreCiudad }}</td>
+        <td>${{ destino.precioTour }}</td>
+        <td>{% if destino.ofertaTour %}Sí{% else %}No{% endif %}</td>
+        <td>
+            <a href="{% url 'editar_destino' destino.id %}">Editar</a> |
+            <a href="{% url 'eliminar_destino' destino.id %}">Eliminar</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
