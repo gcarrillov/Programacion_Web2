@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Personas</title>
+</head>
+<body>
+    <h1>Personas</h1>
+    <ul>
+        {% for persona in personas %}
+            <li>
+                {{ forloop.counter }}.
+                {{ persona.nombre|upper }} -
+                Edad: {{ persona.edad }} -
+                {% if persona.edad >= 18 %}
+                    Adulto
+                {% else %}
+                    Menor
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

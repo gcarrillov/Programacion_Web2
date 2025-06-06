@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Descripción de Persona</title>
+</head>
+<body>
+    <h1>Detalles de Persona</h1>
+    <p>Nombre: {{ persona.nombre|title }}</p>
+    <p>Edad: {{ persona.edad }}</p>
+    <p>Donador: {{ persona.donador|yesno:"Sí,No" }}</p>
+</body>
+</html>
