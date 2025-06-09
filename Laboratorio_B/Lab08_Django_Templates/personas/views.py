@@ -3,6 +3,14 @@ from personas.models import Persona
 from personas.forms import PersonaForm
 from django.shortcuts import render
 
+
+if request.method == "POST":
+    ...
+else:
+    ...
+
+
+
 def home(request):
     return render(request, "personas/test.html")  # O cambia "test.html" por la que quieras mostrar
 
