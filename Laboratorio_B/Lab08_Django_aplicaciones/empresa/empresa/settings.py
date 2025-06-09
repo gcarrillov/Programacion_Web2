@@ -13,13 +13,6 @@ from django.contrib import admin
 from django.urls import path, include
 from pathlib import Path
 
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('empleados/', include('empleados.urls')),
-]
-
-
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.mailtrap.io'  # o smtp.gmail.com
 EMAIL_PORT = 587
