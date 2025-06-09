@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Empleados</title>
+</head>
+<body>
+    <h1>Bienvenido al sistema de empleados</h1>
+    <p>Usa el menú para generar PDF o enviar correos.</p>
+
+    <ul>
+        <li><a href="{% url 'pdf_empleados' %}">📄 Generar PDF de empleados</a></li>
+        <li><a href="{% url 'enviar_email' %}">✉️ Enviar correo electrónico</a></li>
+    </ul>
+</body>
+</html>

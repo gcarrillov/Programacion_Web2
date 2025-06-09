@@ -6,6 +6,10 @@ from xhtml2pdf import pisa
 from django.core.mail import send_mail
 from django.http import HttpResponse
 
+
+def home(request):
+    return render(request, 'empleados/home.html')
+
 def enviar_email(request):
     send_mail(
         subject='Reporte de empleados',
