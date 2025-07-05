@@ -1,12 +1,15 @@
-import { ApplicationConfig, provideBrowserGlobalErrorListeners, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, Routes } from '@angular/router';
+import { Hobbies } from './pages/hobbies/hobbies';
+import { News } from './pages/news/news';
+import { About } from './pages/about/about';
 
-import { routes } from './app.routes';
+const routes: Routes = [
+  { path: '', redirectTo: 'hobbies', pathMatch: 'full' },
+  { path: 'hobbies', component: Hobbies },
+  { path: 'news', component: News },
+  { path: 'about', component: About }
+];
 
-export const appConfig: ApplicationConfig = {
-  providers: [
-    provideBrowserGlobalErrorListeners(),
-    provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes)
-  ]
+export const appConfig = {
+  providers: [provideRouter(routes)],
 };
