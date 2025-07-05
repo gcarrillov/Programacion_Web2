@@ -12,11 +12,18 @@ def lista_personas(request):
     personas = Persona.objects.all()
     return render(request, 'personas/lista.html', {'personas': personas})
 
+from .models import Persona
+
 def crear_persona(request):
     if request.method == 'POST':
         form = PersonaForm(request.POST)
         if form.is_valid():
-            # Guardar en la base de datos (lo haremos luego)
+            # Guardar manualmente en la BD
+            Persona.objects.create(
+                nombre=form.cleaned_data['nombre'],
+                apellido=form.cleaned_data['apellido'],
+                email=form.cleaned_data['email']
+            )
             return redirect('lista_personas')
     else:
         form = PersonaForm()
