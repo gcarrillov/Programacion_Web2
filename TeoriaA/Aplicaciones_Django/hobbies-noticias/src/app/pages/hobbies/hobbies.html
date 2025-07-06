@@ -1,1 +1,25 @@
-<p>hobbies works!</p>
+<div class="container">
+  <h2>Gestor de Hobbies</h2>
+
+  <form (submit)="agregarHobby(); $event.preventDefault()">
+    <input
+      type="text"
+      [(ngModel)]="nuevoHobby"
+      name="hobby"
+      placeholder="Escribe un hobby"
+      required
+    />
+    <button type="submit">Agregar</button>
+  </form>
+
+  <ul *ngIf="hobbies.length > 0; else sinHobbies">
+    <li *ngFor="let hobby of hobbies; let i = index">
+      {{ hobby }}
+      <button (click)="eliminarHobby(i)">Eliminar</button>
+    </li>
+  </ul>
+
+  <ng-template #sinHobbies>
+    <p>No has agregado ningún hobby aún.</p>
+  </ng-template>
+</div>
