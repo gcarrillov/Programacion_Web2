@@ -1,1 +1,15 @@
-<p>news works!</p>
+<div class="container">
+  <h2>Noticias simuladas</h2>
+
+  <ul *ngIf="noticias.length > 0; else cargando">
+    <li *ngFor="let noticia of noticias | slice:0:10">
+      <strong>{{ noticia.title }}</strong>
+      <p>{{ noticia.body }}</p>
+      <hr />
+    </li>
+  </ul>
+
+  <ng-template #cargando>
+    <p>Cargando noticias...</p>
+  </ng-template>
+</div>
